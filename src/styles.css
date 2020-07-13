@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  width: 700px;
+  max-width: calc(100% - 20px);
+  padding: 20px 10px;
+  margin: 0 auto;
+  background-color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.name div {
+  flex: 1 0 50%;
+}
+
+.form-control label {
+  display: block;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+input:not([type="checkbox"]) {
+  width: 700px;
+  max-width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.check {
+  margin: 10px 0;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  margin: 15px 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: #fff;
+  font-size: 1.01rem;
+  font-weight: bold;
+}
